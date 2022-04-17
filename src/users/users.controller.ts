@@ -7,6 +7,7 @@ import { UpdateUserDto } from './dtos/update-user.dto';
 import { UserDto } from './dtos/user.dto';
 import { UsersService } from './users.service';
 import { AuthGuard } from '../guards/auth.guard';
+import { AdminGuard } from 'src/guards/admin.guard';
 
 // @UseInterceptors(new SerializeInterceptor(UserDto))
 @Serialize(UserDto)

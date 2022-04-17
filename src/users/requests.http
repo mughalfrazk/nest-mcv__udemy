@@ -4,7 +4,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "email": "unique3@gmail.com",
+  "email": "admin@gmail.com",
   "password": "passord"
 }
 
@@ -14,7 +14,7 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-  "email": "unique3@gmail.com",
+  "email": "admin@gmail.com",
   "password": "passord"
 }
 
